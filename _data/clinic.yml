@@ -1,0 +1,29 @@
+name: "수원 약손한의원"
+legal_name: "약손한의원"
+phone: "031-247-7522"
+phone_uri: "tel:+82312477522"
+postal_code: "16235"
+address: "경기도 수원시 팔달구 세지로 393, 농협 우만지점 2층"
+address_short: "경기 수원시 팔달구 세지로 393, 농협 우만지점 2층"
+locality: "수원시"
+region: "경기도"
+country: "KR"
+naver_blog: "https://blog.naver.com/yakson17"
+naver_map: "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90"
+
+hours:
+  weekday: "09:00–19:00"
+  lunch: "13:00–14:00"
+  saturday: "09:00–14:00"
+  sunday: "방문 전 확인"
+  holiday: "공개자료상 09:00–13:00 안내가 있으나 변동 가능 — 방문 전 전화 확인"
+
+focus:
+  - "통증 및 근골격계 불편"
+  - "약침·침·부항 등 한방 진료"
+  - "소화기 불편"
+  - "수면·자율신경 관련 불편"
+  - "여성 건강 및 체질 상담"
+  - "어지럼·두통 등 일상 증상 상담"
+
+public_data_checked: "2026-08-23"

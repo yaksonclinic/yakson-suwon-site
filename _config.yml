@@ -1,0 +1,44 @@
+title: "수원 약손한의원"
+short_title: "약손한의원"
+description: "수원시 팔달구 우만동 약손한의원의 진료 안내와 한의학 건강정보를 정리하는 공식 웹사이트입니다."
+lang: ko-KR
+timezone: Asia/Seoul
+
+# GitHub Pages 배포 주소
+url: "https://yaksonclinic.github.io"
+baseurl: "/yakson-suwon-site"
+
+permalink: /health/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+author:
+  name: "수원 약손한의원"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - CONTENT_PLAN.md
+  - _drafts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

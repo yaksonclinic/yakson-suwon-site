@@ -1,0 +1,38 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "LocalBusiness"],
+  "@id": "{{ '/' | absolute_url }}#clinic",
+  "name": "{{ site.data.clinic.name }}",
+  "alternateName": "{{ site.data.clinic.legal_name }}",
+  "url": "{{ '/' | absolute_url }}",
+  "telephone": "{{ site.data.clinic.phone }}",
+  "description": "{{ site.description | escape }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "세지로 393, 농협 우만지점 2층",
+    "addressLocality": "{{ site.data.clinic.locality }}",
+    "addressRegion": "{{ site.data.clinic.region }}",
+    "postalCode": "{{ site.data.clinic.postal_code }}",
+    "addressCountry": "{{ site.data.clinic.country }}"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ],
+  "sameAs": ["{{ site.data.clinic.naver_blog }}"],
+  "knowsAbout": [
+    "한의학", "침", "약침", "부항", "근골격계 통증", "소화기 증상", "수면 건강", "체질 상담"
+  ]
+}
+</script>

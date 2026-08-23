@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /robots.txt
+---
+User-agent: *
+Allow: /
+
+# ChatGPT 검색용 크롤러를 명시적으로 허용합니다.
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

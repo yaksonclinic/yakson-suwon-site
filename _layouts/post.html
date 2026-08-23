@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="article-page">
+  <div class="container article-wrap">
+    <nav class="breadcrumb" aria-label="현재 위치"><a href="{{ '/' | relative_url }}">홈</a> <span>›</span> <a href="{{ '/articles/' | relative_url }}">건강정보</a> <span>›</span> <span>{{ page.title }}</span></nav>
+    <header class="article-header">
+      {% if page.category %}<span class="eyebrow">{{ page.category }}</span>{% endif %}
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <div class="article-meta">작성 {{ page.date | date: '%Y.%m.%d' }}{% if page.updated %} · 수정 {{ page.updated }}{% endif %} · {{ site.data.clinic.name }}</div>
+    </header>
+    <div class="article-content">
+      {{ content }}
+    </div>
+    <aside class="medical-note">
+      <strong>의료정보 이용 안내</strong>
+      <p>이 글은 일반적인 건강정보를 설명하기 위한 자료입니다. 동일한 증상이라도 원인과 필요한 진료가 다를 수 있으므로, 증상이 지속되거나 심해지는 경우 의료기관에서 평가받으세요.</p>
+    </aside>
+    <div class="article-cta">
+      <div><strong>진료 관련 문의</strong><p>{{ site.data.clinic.phone }} · {{ site.data.clinic.address_short }}</p></div>
+      <a class="button" href="{{ site.data.clinic.phone_uri }}">전화 문의</a>
+    </div>
+  </div>
+</article>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.updated_iso %}{{ page.updated_iso }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page.url | absolute_url }}"},
+  "author": {"@type": "Organization", "name": "{{ site.data.clinic.name }}"},
+  "publisher": {"@type": "Organization", "name": "{{ site.data.clinic.name }}", "url": "{{ '/' | absolute_url }}"},
+  "about": {{ page.keywords | jsonify }}
+}
+</script>

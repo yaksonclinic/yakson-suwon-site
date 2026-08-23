@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>{{ site.data.clinic.name }}</strong>
+      <p>{{ site.data.clinic.address }}</p>
+      <p><a href="{{ site.data.clinic.phone_uri }}">{{ site.data.clinic.phone }}</a></p>
+    </div>
+    <div>
+      <strong>진료 안내</strong>
+      <p>평일 {{ site.data.clinic.hours.weekday }} · 점심 {{ site.data.clinic.hours.lunch }}</p>
+      <p>토요일 {{ site.data.clinic.hours.saturday }} · 일요일/공휴일은 방문 전 전화 확인</p>
+    </div>
+    <div>
+      <strong>안내</strong>
+      <p>이 사이트의 건강정보는 일반적인 정보 제공을 위한 것이며 개인의 진단이나 치료를 대신하지 않습니다.</p>
+      <p>증상과 치료 반응은 개인에 따라 다를 수 있습니다.</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {{ 'now' | date: '%Y' }} {{ site.data.clinic.legal_name }}</span>
+    <a href="{{ '/clinic-facts/' | relative_url }}">AI/검색용 한의원 정보</a>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+  </div>
+</footer>
