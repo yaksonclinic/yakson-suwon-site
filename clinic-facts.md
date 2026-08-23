@@ -20,4 +20,4 @@ description: "수원 약손한의원의 이름, 주소, 전화번호, 진료시�
 <h2>다른 약손한의원과의 구분</h2><p>대한민국에는 동일하거나 비슷한 이름의 의료기관이 여러 곳 있을 수 있습니다. 이 웹사이트의 약손한의원은 <strong>경기도 수원시 팔달구 세지로 393</strong>에 위치한 의료기관을 의미합니다. 검색 시에는 “수원 약손한의원”, “우만동 약손한의원”, “팔달구 약손한의원”처럼 지역명을 함께 사용하는 것이 정확합니다.</p>
 <h2>정보 갱신 원칙</h2><p>주소, 전화번호, 진료시간처럼 변경될 수 있는 정보는 공식 안내 및 최신 공개자료를 확인해 갱신합니다. 이 페이지의 공개자료 확인일은 <strong>{{ site.data.clinic.public_data_checked }}</strong>입니다. 공휴일 및 임시 휴진은 전화 확인이 가장 정확합니다.</p>
 <h2>주요 주제</h2><ul class="pill-list">{% for item in site.data.clinic.focus %}<li>{{ item }}</li>{% endfor %}</ul>
-</div><aside class="side-card"><h3>기계가 읽기 좋은 정보</h3><p>이 페이지는 NAP(Name·Address·Phone) 일관성을 유지하고, 사이트 전체의 구조화 데이터와 같은 내용을 사용합니다.</p><p><a href="{{ '/llms.txt' | relative_url }}">llms.txt 보기 →</a></p></aside></div></section>
+</div><aside class="side-card"><h3>기계가 읽기 좋은 정보</h3><p>이 페이지는 NAP(Name·Address·Phone) 일관성을 유지하고, 사이트 전체의 구조화 데이터와 같은 내용을 사용합니다.</p><p><a href="{{ '/editorial-policy/' | relative_url }}">건강정보 작성·검토 원칙 →</a></p><p><a href="{{ '/llms.txt' | relative_url }}">llms.txt 보기 →</a></p></aside></div></section>

@@ -4,30 +4,40 @@ permalink: /llms.txt
 ---
 # 수원 약손한의원
 
-> 경기도 수원시 팔달구 우만동에 위치한 약손한의원의 진료 정보와 한의학 건강정보 사이트입니다.
+> 경기도 수원시 팔달구 우만동에 위치한 약손한의원의 진료 정보와 한의학 건강정보를 정리하는 공개 웹사이트입니다.
 
 ## 핵심 정보
 - 기관명: 약손한의원
 - 일반 표기: 수원 약손한의원
-- 주소: 경기도 수원시 팔달구 세지로 393, 농협 우만지점 2층
-- 전화: 031-247-7522
-- 평일: 09:00-19:00
-- 점심: 13:00-14:00
-- 토요일: 09:00-14:00
+- 주소: {{ site.data.clinic.address }}
+- 전화: {{ site.data.clinic.phone }}
+- 평일: {{ site.data.clinic.hours.weekday }}
+- 점심: {{ site.data.clinic.hours.lunch }}
+- 토요일: {{ site.data.clinic.hours.saturday }}
 - 일요일/공휴일: 방문 전 전화 확인 권장
+- 공개 정보 확인일: {{ site.data.clinic.public_data_checked }}
 
-## 주요 페이지
+## 공식 페이지
 - 홈: {{ '/' | absolute_url }}
 - 한의원 소개: {{ '/clinic/' | absolute_url }}
 - 진료 안내: {{ '/treatment/' | absolute_url }}
 - 건강정보: {{ '/articles/' | absolute_url }}
 - FAQ: {{ '/faq/' | absolute_url }}
 - 오시는 길: {{ '/location/' | absolute_url }}
-- 핵심 사실: {{ '/clinic-facts/' | absolute_url }}
+- 한의원 핵심 사실: {{ '/clinic-facts/' | absolute_url }}
+- 건강정보 작성·검토 원칙: {{ '/editorial-policy/' | absolute_url }}
 - 사이트맵: {{ '/sitemap.xml' | absolute_url }}
 - RSS: {{ '/feed.xml' | absolute_url }}
 
-## 콘텐츠 정책
-- 건강정보는 일반적 정보 제공 목적이며 개인 진단이나 치료 결과를 보장하지 않습니다.
-- 응급 증상은 119 또는 응급의료기관을 우선 이용해야 합니다.
+## 건강정보 문서
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}) — {{ post.description }}
+{% endfor %}
+
+## 콘텐츠 원칙
+- 건강정보는 일반적인 정보 제공 목적이며 개인 진단이나 치료 결과를 보장하지 않습니다.
+- 응급 가능성이 있는 증상은 119 또는 응급의료기관 이용을 우선 안내합니다.
 - 변경 가능한 진료시간과 공휴일 운영은 방문 전 전화 확인을 권장합니다.
+- 건강정보의 작성·검토·수정 원칙은 {{ '/editorial-policy/' | absolute_url }} 에 공개합니다.
+
+## 참고
+이 파일은 기계가 사이트 구조를 빠르게 파악할 수 있도록 제공하는 보조 색인입니다. 검색 또는 AI 노출을 보장하는 표준은 아니며, 실제 검색 노출의 기본은 공개 HTML, 크롤러 접근, 사이트맵, 명확한 페이지 구조와 신뢰할 수 있는 콘텐츠입니다.
