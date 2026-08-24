@@ -77,7 +77,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
   <div class="container">
     <div class="section-head">
       <div><span class="eyebrow">HEALTH LIBRARY</span><h2>건강정보를<br>계속 쌓습니다.</h2></div>
-      <p>검색엔진과 AI가 주제를 명확히 이해할 수 있도록 한 페이지에 한 주제씩, 질문에 답하는 방식으로 정리합니다.</p>
+      <p>환자분들이 자주 궁금해하시는 내용을 주제별로 나누어 쉽고 정확하게 정리합니다.</p>
     </div>
     <div class="post-grid">
       {% for post in site.posts limit:6 %}
