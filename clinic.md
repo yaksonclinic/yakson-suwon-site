@@ -23,7 +23,8 @@ description: "수원 팔달구 우만동에서 진료를 이어온 약손한의�
 <tr><th>기관명</th><td>약손한의원</td></tr>
 <tr><th>주소</th><td>{{ site.data.clinic.address }}</td></tr>
 <tr><th>전화번호</th><td><a href="{{ site.data.clinic.phone_uri }}">{{ site.data.clinic.phone }}</a></td></tr>
-<tr><th>평일</th><td>{{ site.data.clinic.hours.weekday }} · 접수마감 {{ site.data.clinic.hours.reception_close }} · 점심 {{ site.data.clinic.hours.lunch }}</td></tr>
+<tr><th>평일</th><td>{{ site.data.clinic.hours.weekday }} · 접수마감 {{ site.data.clinic.hours.reception_close }} <br> 
+  점심시간 {{ site.data.clinic.hours.lunch }}</td></tr>
 <tr><th>토요일</th><td>{{ site.data.clinic.hours.saturday }} · {{ site.data.clinic.hours.saturday_lunch }}</td></tr>
 <tr><th>일요일·공휴일</th><td>{{ site.data.clinic.hours.sunday }}</td></tr>
 </tbody></table></div>
