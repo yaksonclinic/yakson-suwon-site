@@ -18,7 +18,7 @@ area_served:
 naver_blog: "https://blog.naver.com/yakson17"
 naver_clip: "https://clip.naver.com/@yakson17"
 instagram: "https://www.instagram.com/yaksonhani0/"
-naver_map: "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90"
+naver_map: "https://map.naver.com/p/search/%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90/place/12851356?placePath=?abtExp=NEW-PLACE-SEARCH%3A2&bk_query=%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90&entry=pll&from=nx&fromNxList=true&searchType=place"
 
 hours:
   weekday: "09:00–19:00"
@@ -39,6 +39,6 @@ focus:
   - "교통사고 이후 통증 및 불편감"
 
 public_data_checked: "2026-08-23"
-content_author: "약손한의원 의료진"
+content_author: "강민정 원장 · 약손한의원"
 content_reviewer: ""
 editorial_policy_updated: "2026-08-23"
