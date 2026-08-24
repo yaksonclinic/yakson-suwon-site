@@ -2,17 +2,35 @@
 layout: default
 permalink: /treatment/
 title: "진료 안내 | 수원 약손한의원"
-description: "침, 약침, 부항, 한약 등 한의학 진료와 통증·소화기·수면·여성 건강·체질 관련 상담 영역을 안내합니다."
+description: "수원 약손한의원의 근골격계 통증, 소화기·자율신경 관련 증상, 두통·어지럼, 여성 건강, 교통사고 후 불편감과 침·약침·추나 등 진료 안내입니다."
 ---
-<section class="page-hero"><div class="container"><span class="eyebrow">TREATMENT GUIDE</span><h1>진료 안내</h1><p>증상 이름만으로 치료를 정하기보다 현재 상태와 병력, 생활 습관을 확인한 뒤 진료 방향을 결정합니다.</p></div></section>
+<section class="page-hero"><div class="container"><span class="eyebrow">TREATMENT GUIDE</span><h1>진료 안내</h1><p>질환명 하나만 보고 치료를 정하기보다 현재 증상, 기존 진단, 복용약, 생활 습관과 진찰 소견을 함께 확인합니다.</p></div></section>
 <section class="section"><div class="container">
-<div class="cards">
-<div class="card"><span class="num">01</span><h3>침 치료</h3><p>통증이나 근육 긴장 등 환자의 상태에 따라 경혈과 자극 방법을 달리할 수 있습니다.</p></div>
-<div class="card"><span class="num">02</span><h3>약침</h3><p>한약재에서 유래한 약침액 등을 경혈 부위에 사용하는 한의학적 치료 방법입니다. 적용 여부는 진료 후 결정합니다.</p></div>
-<div class="card"><span class="num">03</span><h3>부항·한방물리요법</h3><p>근육의 긴장이나 통증 양상 등을 고려해 보조적인 치료 방법을 선택할 수 있습니다.</p></div>
-<div class="card"><span class="num">04</span><h3>한약 상담</h3><p>현재 증상, 체질적 특성, 복용 중인 약과 기존 질환 등을 함께 고려해 처방 여부를 상담합니다.</p></div>
-<div class="card"><span class="num">05</span><h3>생활관리 안내</h3><p>수면, 식사, 활동량처럼 증상에 영향을 줄 수 있는 생활 요소를 확인하고 관리 방향을 안내합니다.</p></div>
-<div class="card"><span class="num">06</span><h3>필요 시 타 의료기관 평가</h3><p>응급 증상이나 추가 검사가 필요한 경우에는 적절한 검사와 진료를 받을 수 있도록 안내하는 것이 중요합니다.</p></div>
+<div class="prose" style="max-width:900px">
+<h2>1. 척추·관절 및 근골격계 통증</h2>
+<p>목·어깨·허리·골반·관절의 통증이나 움직임 불편을 상담합니다. 거북목·일자목과 연관된 목 불편, 만성 어깨 결림, 오십견·회전근개 관련 불편, 요통·디스크·척추관 협착증 진단 후 지속되는 증상, 좌골신경통 양상의 통증, 골반 불균형과 관련된 불편 등을 현재 상태에 맞춰 살펴봅니다.</p>
+<p>침, 약침, 추나, 부항 및 한방물리요법 등의 적용 여부는 진찰 후 결정합니다.</p>
+
+<h2>2. 소화기 및 만성 컨디션 관련 증상</h2>
+<p>반복되는 소화불량, 속쓰림·역류감, 위염 진단 후 불편, 복부 팽만, 과민성 장 증상, 만성 변비·설사 등을 상담합니다. 만성 피로, 기력 저하, 식욕 저하, 두근거림이나 수면 불편처럼 여러 증상이 함께 나타나는 경우에는 증상이 언제 함께 심해지는지도 확인합니다.</p>
+<p>손발 저림, 부종감, 냉증, 만성 비염처럼 오래 반복되는 생활 속 불편도 기존 진단과 다른 증상을 함께 확인한 뒤 상담합니다.</p>
+
+<h2>3. 두통·어지럼·수면 및 정서적 긴장과 동반되는 증상</h2>
+<p>만성 두통, 편두통 또는 긴장성 두통 진단 후 반복되는 불편, 어지럼, 이명, 가슴 답답함, 두근거림, 불면, 불안감, 화병과 연관해 느끼는 신체 증상 등을 상담합니다. 두근거림이나 어지럼은 원인이 다양하므로 필요할 때는 심전도·혈액검사 등 다른 의료기관 평가를 우선 안내할 수 있습니다.</p>
+
+<h2>4. 여성 건강 및 생애주기 상담</h2>
+<p>생리통·생리주기 변화, 갱년기 시기의 안면홍조·발한·수면 불편, 산후 회복과 컨디션 저하, 임신 준비 시기의 건강 상담 등을 다룹니다. 수험생·성장기 아동·노년기의 기력과 컨디션 관련 한약 상담은 개인의 건강상태와 필요성을 확인한 뒤 진행합니다.</p>
+
+<h2>5. 교통사고 이후 불편감</h2>
+<p>교통사고 이후 발생한 목·허리·어깨 등의 통증과 뻣뻣함, 일상생활의 불편을 상담합니다. 큰 외상, 골절 의심, 진행하는 신경학적 증상 등 추가 검사가 필요한 상황에서는 적절한 영상검사나 의료기관 평가가 우선입니다.</p>
 </div>
-<div class="prose" style="max-width:820px;margin-top:60px"><h2>주로 상담하는 증상 영역</h2><ul class="pill-list">{% for item in site.data.clinic.focus %}<li>{{ item }}</li>{% endfor %}</ul><p>위 목록은 진료 가능한 모든 질환을 의미하지 않습니다. 구체적인 진료 가능 여부는 현재 증상과 상황을 설명한 뒤 전화로 확인해 주세요.</p></div>
+<div class="cards" style="margin-top:60px">
+<div class="card"><span class="num">01</span><h3>침 치료</h3><p>증상과 진찰 소견에 따라 경혈과 자극 방법을 달리할 수 있습니다.</p></div>
+<div class="card"><span class="num">02</span><h3>약침</h3><p>약침 적용 여부는 현재 증상, 과거력, 복용약 등을 확인한 뒤 결정합니다.</p></div>
+<div class="card"><span class="num">03</span><h3>추나·부항·한방물리요법</h3><p>근골격계 상태와 치료 필요성을 살핀 뒤 보조적인 치료 방법으로 선택할 수 있습니다.</p></div>
+<div class="card"><span class="num">04</span><h3>한약 상담</h3><p>증상, 체질적 특성, 기존 질환과 복용약 등을 고려해 처방 필요성을 상담합니다.</p></div>
+<div class="card"><span class="num">05</span><h3>생활관리</h3><p>수면, 식사, 활동량과 스트레스처럼 증상에 영향을 줄 수 있는 요소를 함께 확인합니다.</p></div>
+<div class="card"><span class="num">06</span><h3>필요 시 검사 안내</h3><p>응급 증상이나 감별이 필요한 경우 적절한 검사 및 다른 의료기관 평가를 우선 안내합니다.</p></div>
+</div>
+<div class="prose" style="max-width:900px;margin-top:60px"><h2>주요 상담 영역 한눈에 보기</h2><ul class="pill-list">{% for item in site.data.clinic.focus %}<li>{{ item }}</li>{% endfor %}</ul><p>위 내용은 개별 환자의 진단이나 치료 효과를 보장하는 설명이 아닙니다. 구체적인 진료 가능 여부와 치료 방법은 진찰 후 결정됩니다.</p></div>
 </div></section>

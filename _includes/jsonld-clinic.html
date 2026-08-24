@@ -8,6 +8,7 @@
   "url": "{{ '/' | absolute_url }}",
   "telephone": "{{ site.data.clinic.phone }}",
   "description": "{{ site.description | escape }}",
+  "foundingDate": "{{ site.data.clinic.started_year }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "세지로 393, 농협 우만지점 2층",
@@ -16,6 +17,9 @@
     "postalCode": "{{ site.data.clinic.postal_code }}",
     "addressCountry": "{{ site.data.clinic.country }}"
   },
+  "areaServed": [
+    {% for area in site.data.clinic.area_served %}{"@type":"Place","name":{{ area | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -30,9 +34,13 @@
       "closes": "14:00"
     }
   ],
-  "sameAs": ["{{ site.data.clinic.naver_blog }}"],
+  "sameAs": [
+    {{ site.data.clinic.naver_blog | jsonify }},
+    {{ site.data.clinic.naver_clip | jsonify }},
+    {{ site.data.clinic.instagram | jsonify }}
+  ],
   "knowsAbout": [
-    "한의학", "침", "약침", "부항", "근골격계 통증", "소화기 증상", "수면 건강", "체질 상담"
+    "한의학", "침", "약침", "추나", "근골격계 통증", "소화기 증상", "자율신경 관련 증상", "두통", "어지럼", "수면 건강", "여성 건강"
   ]
 }
 </script>

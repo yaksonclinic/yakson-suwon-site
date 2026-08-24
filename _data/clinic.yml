@@ -8,26 +8,37 @@ address_short: "경기 수원시 팔달구 세지로 393, 농협 우만지점 2�
 locality: "수원시"
 region: "경기도"
 country: "KR"
+started_year: 2017
+area_served:
+  - "우만동"
+  - "지동"
+  - "연무동"
+  - "매교동"
+
 naver_blog: "https://blog.naver.com/yakson17"
+naver_clip: "https://clip.naver.com/@yakson17"
+instagram: "https://www.instagram.com/yaksonhani0/"
 naver_map: "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90"
 
 hours:
   weekday: "09:00–19:00"
+  reception_close: "18:30"
   lunch: "13:00–14:00"
   saturday: "09:00–14:00"
-  sunday: "방문 전 확인"
-  holiday: "공개자료상 09:00–13:00 안내가 있으나 변동 가능 — 방문 전 전화 확인"
+  saturday_lunch: "점심시간 없음"
+  sunday: "휴진"
+  holiday: "휴진"
 
 focus:
-  - "통증 및 근골격계 불편"
-  - "약침·침·부항 등 한방 진료"
-  - "소화기 불편"
-  - "수면·자율신경 관련 불편"
-  - "여성 건강 및 체질 상담"
-  - "어지럼·두통 등 일상 증상 상담"
+  - "목·어깨·허리·골반·관절 등 근골격계 통증"
+  - "침·약침·추나·부항 등 한의학적 치료 상담"
+  - "소화불량·위장 불편·배변 변화 등 소화기 증상"
+  - "두근거림·피로·수면 불편 등 자율신경 관련 증상"
+  - "두통·어지럼·이명 등 신경계 관련 불편"
+  - "생리·갱년기·산후 회복 등 여성 건강 상담"
+  - "교통사고 이후 통증 및 불편감"
 
 public_data_checked: "2026-08-23"
-
 content_author: "약손한의원 의료진"
 content_reviewer: ""
 editorial_policy_updated: "2026-08-23"

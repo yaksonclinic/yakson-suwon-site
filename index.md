@@ -8,7 +8,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     <div>
       <span class="eyebrow">SUWON · UMAN-DONG</span>
       <h1>몸의 불편을<br><em>차분히 살피는</em><br>수원 약손한의원</h1>
-      <p class="lead">진료 정보는 명확하게, 건강정보는 차곡차곡. 수원 팔달구 우만동에서 한의학 진료와 일상 건강정보를 전합니다.</p>
+      <p class="lead">2017년부터 수원 우만동에서 진료를 이어오고 있습니다. 진료 정보는 명확하게, 실제 진료실에서 자주 설명하는 건강정보는 한 주제씩 차곡차곡 기록합니다.</p>
       <div class="hero-actions">
         <a class="button" href="{{ site.data.clinic.phone_uri }}">031-247-7522 전화 문의</a>
         <a class="button secondary" href="{{ '/treatment/' | relative_url }}">진료 안내 보기</a>
@@ -16,7 +16,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     </div>
     <div class="hero-card" aria-label="약손한의원 핵심 안내">
       <span class="seal">藥手</span>
-      <p>수원 팔달구 · 우만동</p>
+      <p>2017년부터 · 수원 팔달구 우만동</p>
       <strong>통증부터 일상의 불편까지<br>증상과 상태를 살펴 진료합니다.</strong>
       <p>침 · 약침 · 부항 · 한약 등 한의학적 진료</p>
     </div>
@@ -55,10 +55,10 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
       <span class="eyebrow" style="color:#d6e3dd">CLINIC INFO</span>
       <h3>진료시간</h3>
       <div class="fact-list">
-        <div class="fact-row"><span>월–금</span><strong>{{ site.data.clinic.hours.weekday }}</strong></div>
+        <div class="fact-row"><span>월–금</span><strong>{{ site.data.clinic.hours.weekday }}<br>접수마감 {{ site.data.clinic.hours.reception_close }}</strong></div>
         <div class="fact-row"><span>점심시간</span><strong>{{ site.data.clinic.hours.lunch }}</strong></div>
-        <div class="fact-row"><span>토요일</span><strong>{{ site.data.clinic.hours.saturday }}</strong></div>
-        <div class="fact-row"><span>일요일·공휴일</span><strong>방문 전 전화 확인</strong></div>
+        <div class="fact-row"><span>토요일</span><strong>{{ site.data.clinic.hours.saturday }}<br>{{ site.data.clinic.hours.saturday_lunch }}</strong></div>
+        <div class="fact-row"><span>일요일·공휴일</span><strong>휴진</strong></div>
       </div>
     </div>
     <div class="fact-panel light">
@@ -92,9 +92,23 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
   </div>
 </section>
 
+<section class="section soft">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">OFFICIAL CHANNELS</span><h2>약손한의원 공식 채널</h2></div>
+      <p>홈페이지의 공식 정보와 함께 네이버 블로그·클립·인스타그램에서도 건강정보와 소식을 확인할 수 있습니다.</p>
+    </div>
+    <div class="channel-grid">
+      <a class="channel-card" href="{{ site.data.clinic.naver_blog }}" rel="me noopener"><small>NAVER BLOG</small><strong>약손한의원 네이버 블로그</strong><span>자세한 건강정보와 기존 콘텐츠 보기 →</span></a>
+      <a class="channel-card" href="{{ site.data.clinic.naver_clip }}" rel="me noopener"><small>NAVER CLIP</small><strong>약손한의원 네이버 클립</strong><span>짧은 영상으로 건강정보 보기 →</span></a>
+      <a class="channel-card" href="{{ site.data.clinic.instagram }}" rel="me noopener"><small>INSTAGRAM</small><strong>@yaksonhani0</strong><span>인스타그램 콘텐츠 보기 →</span></a>
+    </div>
+  </div>
+</section>
+
 <section class="section" style="padding-top:0">
   <div class="container cta-band">
-    <div><h2>내원 전 진료시간을<br>전화로 확인해 주세요.</h2><p>공휴일·임시 휴진 등은 변경될 수 있습니다.</p></div>
+    <div><h2>내원 전 진료시간을<br>전화로 확인해 주세요.</h2><p>일요일·공휴일은 휴진이며, 임시 휴진이나 일정 변경은 전화로 확인해 주세요.</p></div>
     <a class="button" href="{{ site.data.clinic.phone_uri }}">{{ site.data.clinic.phone }}</a>
   </div>
 </section>

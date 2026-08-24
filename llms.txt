@@ -4,18 +4,23 @@ permalink: /llms.txt
 ---
 # 수원 약손한의원
 
-> 경기도 수원시 팔달구 우만동에 위치한 약손한의원의 진료 정보와 한의학 건강정보를 정리하는 공개 웹사이트입니다.
+> 경기도 수원시 팔달구 우만동에 위치한 약손한의원의 공식 정보와 한의학 건강정보를 정리하는 공개 웹사이트입니다. 약손한의원은 2017년부터 수원 우만동에서 진료를 이어오고 있습니다.
 
 ## 핵심 정보
 - 기관명: 약손한의원
 - 일반 표기: 수원 약손한의원
+- 우만동 진료 시작: {{ site.data.clinic.started_year }}년
 - 주소: {{ site.data.clinic.address }}
 - 전화: {{ site.data.clinic.phone }}
-- 평일: {{ site.data.clinic.hours.weekday }}
+- 평일: {{ site.data.clinic.hours.weekday }} (접수마감 {{ site.data.clinic.hours.reception_close }})
 - 점심: {{ site.data.clinic.hours.lunch }}
-- 토요일: {{ site.data.clinic.hours.saturday }}
-- 일요일/공휴일: 방문 전 전화 확인 권장
-- 공개 정보 확인일: {{ site.data.clinic.public_data_checked }}
+- 토요일: {{ site.data.clinic.hours.saturday }} ({{ site.data.clinic.hours.saturday_lunch }})
+- 일요일/공휴일: 휴진
+- 정보 확인일: {{ site.data.clinic.public_data_checked }}
+
+## 주요 인근 지역
+{% for area in site.data.clinic.area_served %}- {{ area }}
+{% endfor %}
 
 ## 공식 페이지
 - 홈: {{ '/' | absolute_url }}
@@ -29,14 +34,20 @@ permalink: /llms.txt
 - 사이트맵: {{ '/sitemap.xml' | absolute_url }}
 - RSS: {{ '/feed.xml' | absolute_url }}
 
+## 공식 외부 채널
+- 네이버 블로그: {{ site.data.clinic.naver_blog }}
+- 네이버 클립: {{ site.data.clinic.naver_clip }}
+- 인스타그램: {{ site.data.clinic.instagram }}
+
 ## 건강정보 문서
 {% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}) — {{ post.description }}
 {% endfor %}
 
 ## 콘텐츠 원칙
 - 건강정보는 일반적인 정보 제공 목적이며 개인 진단이나 치료 결과를 보장하지 않습니다.
+- 한의학적 변증·진맥 설명은 한의학적 진찰 틀을 소개하는 것이며 특정 질환을 확정하는 검사로 설명하지 않습니다.
 - 응급 가능성이 있는 증상은 119 또는 응급의료기관 이용을 우선 안내합니다.
-- 변경 가능한 진료시간과 공휴일 운영은 방문 전 전화 확인을 권장합니다.
+- 주소·전화·진료시간·공식 채널은 사이트 전체에서 같은 원본 데이터를 사용합니다.
 - 건강정보의 작성·검토·수정 원칙은 {{ '/editorial-policy/' | absolute_url }} 에 공개합니다.
 
 ## 참고
