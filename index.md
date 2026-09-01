@@ -100,7 +100,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <span class="num">04</span>
         <h3>산후 클리닉</h3>
         <p>출산 후 회복 과정에서 나타나는 피로감과 컨디션 변화를 함께 살펴봅니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+       <a class="card-link" href="{{ '/clinic/postpartum/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
