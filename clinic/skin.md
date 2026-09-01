@@ -42,6 +42,7 @@
     line-height:1.2;
   }
   .clinic-heading p{line-height:1.8;}
+
   .skin-grid{
     display:grid;
     grid-template-columns:repeat(3,minmax(0,1fr));
@@ -55,6 +56,7 @@
   }
   .skin-card h3{margin:0 0 10px;font-size:1.14rem;}
   .skin-card p{margin:0;line-height:1.75;}
+
   .check-list{
     display:grid;
     grid-template-columns:repeat(2,minmax(0,1fr));
@@ -70,6 +72,7 @@
     font-size:1.05rem;
   }
   .check-item p{margin:0;line-height:1.75;}
+
   .treatment-grid{
     display:grid;
     grid-template-columns:repeat(4,minmax(0,1fr));
@@ -83,6 +86,7 @@
   }
   .treatment-card h3{margin:0 0 10px;}
   .treatment-card p{margin:0;line-height:1.75;}
+
   .important-box{
     padding:30px;
     border-radius:18px;
@@ -90,6 +94,7 @@
   }
   .important-box h3{margin-top:0;font-size:1.35rem;}
   .important-box p{margin-bottom:0;line-height:1.8;}
+
   .safety-box{
     padding:28px;
     border-radius:18px;
@@ -102,6 +107,7 @@
     padding-left:20px;
     line-height:1.9;
   }
+
   .faq-list{border-top:1px solid rgba(0,0,0,.12);}
   .faq-item{
     padding:24px 0;
@@ -109,6 +115,7 @@
   }
   .faq-item h3{margin:0 0 10px;font-size:1.08rem;}
   .faq-item p{margin:0;line-height:1.8;}
+
   .clinic-cta{
     display:flex;
     justify-content:space-between;
@@ -126,6 +133,7 @@
     gap:10px;
     flex-shrink:0;
   }
+
   @media (max-width:900px){
     .skin-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
     .treatment-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
@@ -145,7 +153,7 @@
     <p class="clinic-lead">
       피부의 불편은 겉으로 보이는 증상뿐 아니라
       <strong>언제 심해지는지, 수면·식사·스트레스와 어떤 연관이 있는지</strong>를 함께 살펴보는 것이 중요합니다.
-      반복되는 피부 트러블과 가려움, 건조함 등 현재 피부 상태와 생활패턴을 함께 확인합니다.
+      두드러기·가려움, 여드름·피부 트러블, 건조함 등 현재 피부 상태와 생활패턴을 함께 확인합니다.
     </p>
     <div class="clinic-nav" aria-label="피부 클리닉 페이지 바로가기">
       <a href="#symptoms">주요 피부 고민</a>
@@ -165,20 +173,21 @@
     </div>
 
 <div class="skin-grid">
-  <article class="skin-card">
-  <h3>두드러기·가려움</h3>
-  <p>갑자기 올라왔다 사라지거나 반복되는 두드러기와 가려움이 있을 때 발생 시점과 지속 시간, 음식·약물·스트레스·생활환경 등을 함께 살펴봅니다.</p>
-</article>
 
   <article class="skin-card">
-  <h3>여드름·반복되는 피부 트러블</h3>
-  <p>얼굴이나 몸에 여드름과 붉은 트러블이 반복되거나 특정 시기에 심해지는 경우 발생 패턴과 생활습관을 함께 확인합니다.</p>
-</article>
+    <h3>두드러기·가려움</h3>
+    <p>갑자기 올라왔다 사라지거나 반복되는 두드러기와 가려움이 있을 때 발생 시점과 지속 시간, 음식·약물·스트레스·생활환경 등을 함께 살펴봅니다.</p>
+  </article>
 
-   <article class="skin-card">
+  <article class="skin-card">
+    <h3>여드름·피부 트러블</h3>
+    <p>얼굴이나 몸에 여드름과 붉은 트러블이 반복되거나 특정 시기에 심해지는 경우 발생 패턴과 생활습관을 함께 확인합니다.</p>
+  </article>
+
+  <article class="skin-card">
     <h3>습진·민감성 피부</h3>
-<p>붉어짐, 건조함, 가려움이 반복되는 피부 상태를 현재 사용 중인 제품과 생활환경을 함께 확인하며 살펴봅니다.</p>
-</article>
+    <p>붉어짐, 건조함, 가려움이 반복되는 피부 상태를 현재 사용 중인 제품과 생활환경을 함께 확인하며 살펴봅니다.</p>
+  </article>
 
   <article class="skin-card">
     <h3>건조함·각질</h3>
@@ -191,14 +200,10 @@
   </article>
 
   <article class="skin-card">
-    <h3>스트레스와 함께 심해지는 피부 불편</h3>
-    <p>수면 부족이나 과로, 스트레스 이후 피부 증상이 반복적으로 심해지는지 함께 살펴봅니다.</p>
-  </article>
-
-  <article class="skin-card">
     <h3>피부 컨디션 한약 상담</h3>
     <p>현재 피부 증상과 소화, 수면, 피로, 복용약 등을 확인한 뒤 필요한 경우 한약 상담을 진행합니다.</p>
   </article>
+
 </div>
 
   </div>
@@ -298,7 +303,7 @@
     <div class="safety-box">
       <h3>이런 경우에는 피부과 또는 응급 진료가 우선입니다.</h3>
       <ul>
-        <li>갑자기 전신에 심한 발진이 퍼지면서 호흡곤란이나 입술·목의 붓기가 있는 경우</li>
+        <li>갑자기 전신에 심한 두드러기나 발진이 퍼지면서 호흡곤란 또는 입술·목의 붓기가 있는 경우</li>
         <li>고열과 함께 피부 통증이나 물집이 빠르게 번지는 경우</li>
         <li>상처 부위가 심하게 붓고 뜨겁거나 고름이 생기는 등 감염이 의심되는 경우</li>
         <li>갑자기 생긴 점이나 피부 병변의 모양·색·크기가 빠르게 변하는 경우</li>
@@ -328,7 +333,7 @@
 
   <div class="check-item">
     <strong>피부 변화를 사진으로 남기기</strong>
-    <p>증상이 심한 날의 모습을 사진으로 기록하면 내원 시 변화 양상을 설명하는 데 도움이 됩니다.</p>
+    <p>두드러기처럼 나타났다 사라지는 증상은 심한 날의 모습을 사진으로 기록하면 내원 시 변화 양상을 설명하는 데 도움이 됩니다.</p>
   </div>
 
   <div class="check-item">
@@ -348,6 +353,11 @@
     </div>
 
 <div class="faq-list">
+  <article class="faq-item">
+    <h3>두드러기가 올라왔다가 사라져도 상담할 수 있나요?</h3>
+    <p>네. 두드러기는 진료 시점에 보이지 않을 수도 있어 증상이 나타났을 때 사진을 찍어두면 도움이 됩니다. 발생 시간, 지속 시간, 음식·약물·운동·스트레스 등과의 관계도 함께 확인합니다.</p>
+  </article>
+
   <article class="faq-item">
     <h3>피부과 치료를 받고 있어도 한의원에서 상담할 수 있나요?</h3>
     <p>네. 현재 받고 있는 피부과 진료와 사용하는 연고·복용약을 확인한 뒤 상담할 수 있습니다. 처방받은 약은 임의로 중단하지 않는 것이 중요합니다.</p>
@@ -369,13 +379,13 @@
   </article>
 
   <article class="faq-item">
-    <h3>피부가 갑자기 붉어지고 붓는데 한의원에 가도 되나요?</h3>
-    <p>호흡곤란이나 입술·목의 붓기, 전신에 빠르게 퍼지는 발진이 동반된다면 응급진료가 우선입니다.</p>
+    <h3>두드러기와 함께 입술이나 목이 붓는데 한의원에 가도 되나요?</h3>
+    <p>호흡곤란이나 입술·혀·목의 붓기가 동반되는 경우에는 응급진료가 우선입니다.</p>
   </article>
 
   <article class="faq-item">
     <h3>피부 상태를 사진으로 찍어 가도 도움이 되나요?</h3>
-    <p>네. 증상이 심한 날과 비교적 괜찮은 날의 사진이 있으면 변화의 양상을 확인하는 데 도움이 됩니다.</p>
+    <p>네. 특히 두드러기처럼 증상이 나타났다 사라지는 경우 사진이 변화의 양상을 확인하는 데 도움이 됩니다.</p>
   </article>
 </div>
 
@@ -405,6 +415,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "두드러기가 올라왔다가 사라져도 상담할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "두드러기는 진료 시점에 보이지 않을 수도 있어 증상이 나타났을 때 사진을 찍어두면 도움이 됩니다. 발생 시간, 지속 시간, 음식·약물·운동·스트레스 등과의 관계도 함께 확인합니다."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "피부과 치료를 받고 있어도 한의원에서 상담할 수 있나요?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -429,10 +447,10 @@
     },
     {
       "@type": "Question",
-      "name": "피부 때문에 한약 상담도 가능한가요?",
+      "name": "두드러기와 함께 입술이나 목이 붓는데 한의원에 가도 되나요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "현재 피부 증상과 수면, 소화, 피로 상태, 기존 치료 내용을 확인한 뒤 필요한 경우 상담합니다."
+        "text": "호흡곤란이나 입술·혀·목의 붓기가 동반되는 경우에는 응급진료가 우선입니다."
       }
     }
   ]
