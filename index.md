@@ -2,6 +2,7 @@
 layout: default
 title: "수원 약손한의원 | 우만동 한의원 진료·건강정보"
 description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치, 진료 안내와 통증·소화·수면·체질 등 한의학 건강정보를 확인하세요."
+image: /assets/img/og-yakson.png
 ---
 
 <style>
