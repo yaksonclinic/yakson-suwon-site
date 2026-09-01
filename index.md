@@ -63,6 +63,45 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     <a href="{{ '/articles/' | relative_url }}"><small>건강정보</small><strong>증상별 글 모아보기</strong></a>
   </div>
 </div>
+<section class="director-intro-section">
+  <div class="container director-intro-grid">
+
+    <div class="director-intro-photo">
+      <img
+        src="{{ '/assets/img/director.jpg' | relative_url }}"
+        alt="수원 약손한의원 강민정 대표원장">
+    </div>
+
+    <div class="director-intro-copy">
+      <span class="eyebrow">DIRECTOR & PHILOSOPHY</span>
+
+      <h2>
+        질환만 보지 않고,<br>
+        사람을 함께 봅니다.
+      </h2>
+
+      <p>
+        2017년 개원 이후 한 자리에서 지역 주민의 건강을 함께 살피는
+        <strong>동네주치의</strong>를 지향해 왔습니다.
+      </p>
+
+      <p>
+        현재의 증상뿐 아니라 식사와 수면, 생활습관과 스트레스까지 함께 살펴
+        환자분이 자신의 몸을 이해할 수 있도록 설명하는 진료를 중요하게 생각합니다.
+      </p>
+
+      <div class="director-name">
+        <strong>강민정</strong>
+        <span>약손한의원 대표원장</span>
+      </div>
+
+      <a class="card-link" href="{{ '/about/' | relative_url }}">
+        원장 소개·진료철학 자세히 보기 →
+      </a>
+    </div>
+
+  </div>
+</section>
 
 <section class="section clinic-guide">
   <div class="container">
