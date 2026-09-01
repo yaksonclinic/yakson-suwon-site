@@ -146,11 +146,11 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
 </article>
 
       <article class="card">
-        <span class="num">11</span>
-        <h3>다이어트 클리닉</h3>
-        <p>체질과 생활습관, 식사 패턴을 함께 살펴 개인별 한방 체중관리 방향을 상담합니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
-      </article>
+  <span class="num">11</span>
+  <h3>다이어트 클리닉</h3>
+  <p>체중 변화와 식사·야식, 수면·스트레스, 소화와 활동량을 함께 살펴 개인별 체중관리 방향을 상담합니다.</p>
+  <a class="card-link" href="{{ '/clinic/diet/' | relative_url }}">자세히 보기 →</a>
+</article>
 
 <article class="card">
   <span class="num">12</span>
