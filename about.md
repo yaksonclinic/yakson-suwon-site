@@ -167,30 +167,37 @@
 <section class="about-hero">
   <div class="container">
     <div class="about-hero-grid">
+
       <div class="about-photo">
         <img
-  src="{{ '/assets/img/doctor-consultation.jpg' | relative_url }}"
-  alt="환자의 이야기를 듣고 상담하는 수원 약손한의원 진료 모습">
+          src="{{ '/assets/img/doctor-consultation.jpg' | relative_url }}"
+          alt="환자의 이야기를 듣고 상담하는 수원 약손한의원 진료 모습">
       </div>
 
-  <div>
-    <span class="eyebrow">DIRECTOR & PHILOSOPHY</span>
-    <h1>질환만 보지 않고,<br>사람을 함께 봅니다.</h1>
+      <div>
+        <span class="eyebrow">DIRECTOR'S PHILOSOPHY</span>
 
-    <p>
-      안녕하세요. 수원 약손한의원 대표원장 강민정입니다.
-      2017년 개원 이후 한 자리에서 지역 주민의 건강을 함께 살피는
-      <strong>동네주치의</strong>를 지향하며 진료해왔습니다.
-    </p>
+        <h1>
+          환자의 이야기를 충분히 듣고,<br>
+          맥을 세심하게 살핍니다.
+        </h1>
 
-    <p>
-      저는 환자분의 이야기를 충분히 듣고,
-      현재의 증상뿐 아니라 식사와 수면, 생활습관과 스트레스를 함께 살피며
-      <strong>진료 과정에서 맥진을 중요하게 생각합니다.</strong>
-    </p>
-  </div>
-</div>
+        <p>
+          몸의 불편은 한 가지 증상만으로 설명하기 어려운 경우도 있습니다.
+          저는 현재의 증상뿐 아니라 식사와 수면, 소화, 피로와 스트레스 등
+          생활 속 변화를 충분히 듣고 살펴봅니다.
+        </p>
 
+        <p>
+          여기에 <strong>맥진과 다른 진찰 내용을 함께 확인하여</strong>
+          현재 몸 상태를 이해하고,
+          진찰한 내용을 환자분이 이해할 수 있도록 설명하는 것을 중요하게 생각합니다.
+        </p>
+
+        <p><strong>강민정 대표원장</strong></p>
+      </div>
+
+    </div>
   </div>
 </section>
 
