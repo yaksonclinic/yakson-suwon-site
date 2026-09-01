@@ -79,7 +79,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <span class="num">01</span>
         <h3>통증 클리닉</h3>
         <p>목·어깨·허리·무릎 등 일상에서 반복되는 근골격계 통증과 불편을 상담합니다.</p>
-        <a class="card-link" href="{{ '/health/pharmacopuncture-pain-care/' | relative_url }}">자세히 보기 →</a>
+        <a class="card-link" href="{{ '/clinic/pain/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
