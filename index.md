@@ -93,7 +93,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <span class="num">03</span>
         <h3>여성 클리닉</h3>
         <p>생리 주기와 컨디션 변화, 갱년기 등 여성 건강과 관련된 불편을 상담합니다.</p>
-        <a class="card-link" href="{{ '/health/menopause-care/' | relative_url }}">자세히 보기 →</a>
+        <a class="card-link" href="{{ '/clinic/women/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
