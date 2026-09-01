@@ -132,11 +132,11 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
       </article>
 
       <article class="card">
-        <span class="num">09</span>
-        <h3>약침 클리닉</h3>
-        <p>증상과 상태를 확인한 뒤 필요한 경우 약침을 포함한 한의학적 진료를 안내합니다.</p>
-        <a class="card-link" href="{{ '/health/pharmacopuncture-pain-care/' | relative_url }}">자세히 보기 →</a>
-      </article>
+  <span class="num">09</span>
+  <h3>수면·스트레스 관리 클리닉</h3>
+  <p>불면, 두근거림, 가슴 답답함, 긴장과 스트레스로 반복되는 불편을 수면과 생활상태와 함께 살펴봅니다.</p>
+  <a class="card-link" href="{{ '/clinic/sleep-stress/' | relative_url }}">자세히 보기 →</a>
+</article>
 
       <article class="card">
         <span class="num">10</span>
