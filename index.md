@@ -139,11 +139,11 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
 </article>
 
       <article class="card">
-        <span class="num">10</span>
-        <h3>공진단·경옥고 클리닉</h3>
-        <p>피로와 체력 저하 등 현재 상태를 확인하고 한약 상담을 진행합니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
-      </article>
+  <span class="num">10</span>
+  <h3>공진단·경옥고 클리닉</h3>
+  <p>과로와 체력 소모가 큰 시기, 회복이 더딘 피로와 중요한 일정 전 컨디션 관리 등을 복용 목적과 건강상태에 맞춰 상담합니다.</p>
+  <a class="card-link" href="{{ '/clinic/gongjindan-gyeongokgo/' | relative_url }}">자세히 보기 →</a>
+</article>
 
       <article class="card">
         <span class="num">11</span>
