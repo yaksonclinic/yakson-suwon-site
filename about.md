@@ -168,7 +168,9 @@
   <div class="container">
     <div class="about-hero-grid">
       <div class="about-photo">
-        <img src="{{ '/assets/img/clinic-interior.jpg' | relative_url }}" alt="수원 약손한의원 내부 모습">
+        <img
+  src="{{ '/assets/img/doctor-consultation.jpg' | relative_url }}"
+  alt="환자의 이야기를 듣고 상담하는 수원 약손한의원 진료 모습">
       </div>
 
   <div>
