@@ -1,26 +1,48 @@
 <footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <strong>{{ site.data.clinic.name }}</strong>
-      <p>{{ site.data.clinic.address }}</p>
-      <p><a href="{{ site.data.clinic.phone_uri }}">{{ site.data.clinic.phone }}</a></p>
-     </div>
-    <div>
-      <strong>진료 안내</strong>
-      <p>평일 {{ site.data.clinic.hours.weekday }} · 접수마감 {{ site.data.clinic.hours.reception_close }}</p>
-      <p>점심 {{ site.data.clinic.hours.lunch }} · 토요일 {{ site.data.clinic.hours.saturday }} (점심시간 없음)</p>
-      <p>일요일·공휴일 휴진</p>
-    </div>
-    <div>
-      <strong>공식 채널</strong>
-      <p class="footer-channels"><a href="{{ site.data.clinic.naver_blog }}" rel="me noopener">네이버 블로그</a> · <a href="{{ site.data.clinic.naver_clip }}" rel="me noopener">네이버 클립</a> · <a href="{{ site.data.clinic.instagram }}" rel="me noopener">인스타그램</a></p>
-      <p>이 사이트의 건강정보는 일반적인 정보 제공을 위한 것이며 개인의 진단이나 치료를 대신하지 않습니다.</p>
-    </div>
+
+  <div class="container footer-simple">
+
+    <strong class="footer-brand">
+      {{ site.data.clinic.name }}
+    </strong>
+
+    <p>대표원장 강민정</p>
+
+    <p>
+      {{ site.data.clinic.address }}
+    </p>
+
+    <p>
+      대표전화
+      <a href="{{ site.data.clinic.phone_uri }}">
+        {{ site.data.clinic.phone }}
+      </a>
+    </p>
+
+    <p>
+      평일 {{ site.data.clinic.hours.weekday }}
+      · 토요일 {{ site.data.clinic.hours.saturday }}
+      · 점심시간 {{ site.data.clinic.hours.lunch }}
+      · 일요일·공휴일 휴진
+    </p>
+
+    <p class="footer-channels">
+      <a href="{{ site.data.clinic.naver_blog }}" rel="me noopener">
+        네이버 블로그
+      </a>
+      ·
+      <a href="{{ site.data.clinic.instagram }}" rel="me noopener">
+        인스타그램
+      </a>
+    </p>
+
   </div>
+
   <div class="container footer-bottom">
-    <span>© {{ 'now' | date: '%Y' }} {{ site.data.clinic.legal_name }}</span>
-    <a href="{{ '/clinic-facts/' | relative_url }}">한의원 핵심 정보</a>
-    <a href="{{ '/editorial-policy/' | relative_url }}">건강정보 작성·검토 원칙</a>
-    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    <span>
+      © {{ 'now' | date: '%Y' }}
+      {{ site.data.clinic.legal_name }}. All Rights Reserved.
+    </span>
   </div>
+
 </footer>
