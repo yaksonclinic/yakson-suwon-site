@@ -376,15 +376,9 @@
 <div class="clinic-info-wrap">
 
   <div class="clinic-info-card">
-    <h2>약손한의원 기본 안내</h2>
+    <h2>약손한의원 진료 안내</h2>
 
-    <div class="clinic-info-list">
-      <div class="clinic-info-row">
-        <strong>진료 시작</strong>
-        <span>2017년부터 수원 우만동</span>
-      </div>
-
-      <div class="clinic-info-row">
+     <div class="clinic-info-row">
         <strong>주소</strong>
         <span>경기도 수원시 팔달구 세지로 393, 농협 우만지점 2층</span>
       </div>
@@ -396,7 +390,7 @@
 
       <div class="clinic-info-row">
         <strong>평일</strong>
-        <span>09:00–19:00 · 접수마감 18:30 · 점심 13:00–14:00</span>
+        <span>09:00–19:00 (접수마감 18:30) 점심시간 13:00–14:00</span>
       </div>
 
       <div class="clinic-info-row">
@@ -416,7 +410,7 @@
       <span class="eyebrow" style="color:#d9cdb9">VISIT YAKSON</span>
       <h2>처음 방문하시는 분도<br>편하게 문의해주세요.</h2>
       <p>
-        임시 휴진이나 연휴 전후 일정은 변경될 수 있으므로
+        대체공휴일이나 연휴 전후 일정은 변경될 수 있으므로
         방문 전 진료시간을 확인해주세요.
       </p>
     </div>
