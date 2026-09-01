@@ -145,12 +145,20 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
       </article>
 
-      <article class="card featured-clinic">
+      <article class="card">
         <span class="num">11</span>
         <h3>다이어트 클리닉</h3>
         <p>체질과 생활습관, 식사 패턴을 함께 살펴 개인별 한방 체중관리 방향을 상담합니다.</p>
         <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
       </article>
+
+<article class="card">
+  <span class="num">12</span>
+  <h3>피부 클리닉</h3>
+  <p>두드러기,가려움, 여드름, 반복되는 피부 트러블, 건조함과 피부 컨디션 변화를 생활습관과 수면,소화,스트레스 상태와 함께 살펴봅니다.</p>
+  <a class="card-link" href="{{ '/clinic/skin/' | relative_url }}">자세히 보기 →</a>
+</article>
+      
     </div>
   </div>
 </section>
