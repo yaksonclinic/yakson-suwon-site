@@ -18,5 +18,28 @@
   <main id="main">{{ content }}</main>
   {% include footer.html %}
   <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+
+  <a href="https://map.naver.com/p/search/%EC%95%BD%EC%86%90%ED%95%9C%EC%9D%98%EC%9B%90/place/12851356"
+     target="_blank"
+     rel="noopener">
+    <span class="mobile-bar-icon">N</span>
+    <span>플레이스</span>
+  </a>
+
+  <a href="{{ site.data.clinic.phone_uri }}">
+    <span class="mobile-bar-icon">☎</span>
+    <span>전화</span>
+  </a>
+
+  <a href="{{ site.data.clinic.naver_blog }}"
+     target="_blank"
+     rel="noopener">
+    <span class="mobile-bar-icon">B</span>
+    <span>블로그</span>
+  </a>
+
+</nav>
+
+  
 </body>
 </html>
