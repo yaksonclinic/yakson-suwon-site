@@ -107,7 +107,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <span class="num">05</span>
         <h3>소화기 클리닉</h3>
         <p>더부룩함, 명치 답답함, 복부 불편 등 반복되는 소화기 증상을 살펴봅니다.</p>
-        <a class="card-link" href="{{ '/health/epigastric-discomfort/' | relative_url }}">자세히 보기 →</a>
+       <a class="card-link" href="{{ '/clinic/digestive/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
