@@ -86,7 +86,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
         <span class="num">02</span>
         <h3>교통사고 클리닉</h3>
         <p>사고 이후 나타나는 목·허리 통증, 뻐근함과 여러 불편을 살펴봅니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+        <a class="card-link" href="{{ '/clinic/traffic-accident/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
