@@ -119,9 +119,9 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
 
       <article class="card">
         <span class="num">07</span>
-        <h3>소아 클리닉</h3>
-        <p>성장기 아이의 식욕, 체력, 반복되는 생활 불편 등을 전반적으로 살펴봅니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+         <h3>소아·성장 클리닉</h3>
+  <p>급성장기를 앞둔 초등 고학년, 운동하는 아이의 성장·체력과 여자아이의 빠른 사춘기 변화를 함께 살펴봅니다.</p>
+  <a class="card-link" href="{{ '/clinic/children/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
