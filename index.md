@@ -3,12 +3,44 @@ layout: default
 title: "수원 약손한의원 | 우만동 한의원 진료·건강정보"
 description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치, 진료 안내와 통증·소화·수면·체질 등 한의학 건강정보를 확인하세요."
 ---
+
+<style>
+  .clinic-cards{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .clinic-cards .card{
+    position:relative;
+    min-height:250px;
+    display:flex;
+    flex-direction:column;
+  }
+  .clinic-cards .card-link{
+    margin-top:auto;
+  }
+  .clinic-cards .featured-clinic{
+    grid-column:span 2;
+  }
+  @media (max-width:900px){
+    .clinic-cards{
+      grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+    .clinic-cards .featured-clinic{
+      grid-column:span 1;
+    }
+  }
+  @media (max-width:640px){
+    .clinic-cards{
+      grid-template-columns:1fr;
+    }
+  }
+</style>
+
 <section class="hero">
   <div class="container hero-inner">
     <div>
       <span class="eyebrow">SUWON · UMAN-DONG</span>
       <h1>몸의 불편을<br><em>차분히 살피는</em><br>수원 약손한의원</h1>
-      <p class="lead">진료 정보는 명확하게, 실제 진료실에서 자주 설명하는 건강정보를 한 주제씩 차곡차곡 기록합니다.</p>
+      <p class="lead">2017년부터 수원 우만동에서 진료를 이어오고 있습니다. 진료 정보는 명확하게, 실제 진료실에서 자주 설명하는 건강정보는 한 주제씩 차곡차곡 기록합니다.</p>
       <div class="hero-actions">
         <a class="button" href="{{ site.data.clinic.phone_uri }}">031-247-7522 전화 문의</a>
         <a class="button secondary" href="{{ '/treatment/' | relative_url }}">진료 안내 보기</a>
@@ -16,7 +48,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     </div>
     <div class="hero-card" aria-label="약손한의원 핵심 안내">
       <span class="seal">藥手</span>
-      <p>수원 팔달구 우만동</p>
+      <p>2017년부터 · 수원 팔달구 우만동</p>
       <strong>통증부터 일상의 불편까지<br>증상과 상태를 살펴 진료합니다.</strong>
       <p>침 · 약침 · 부항 · 한약 등 한의학적 진료</p>
     </div>
@@ -32,19 +64,93 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
   </div>
 </div>
 
-<section class="section">
+<section class="section clinic-guide">
   <div class="container">
     <div class="section-head">
-      <div><span class="eyebrow">CARE AREAS</span><h2>어떤 불편으로<br>찾으시나요?</h2></div>
-      <p>질환명을 단정하기보다 현재의 증상, 지속 기간, 생활 습관, 기존 진단과 복용약 등을 함께 확인하는 것이 중요합니다.</p>
+      <div>
+        <span class="eyebrow">CLINIC</span>
+        <h2>약손한의원<br>주요 진료분야</h2>
+      </div>
+      <p>현재의 증상과 생활 상태를 함께 살펴보고, 필요한 한의학적 진료 방향을 안내합니다.</p>
     </div>
-    <div class="cards">
-      <article class="card"><span class="num">01</span><h3>통증·근골격계</h3><p>목·어깨·허리·무릎 등 일상에서 반복되는 근골격계 불편을 상담합니다.</p><a class="card-link" href="{{ '/health/pharmacopuncture-pain-care/' | relative_url }}">관련 정보 →</a></article>
-      <article class="card"><span class="num">02</span><h3>소화기 불편</h3><p>명치 답답함, 더부룩함, 복부 불편, 배변 변화처럼 반복되는 소화기 증상을 살펴봅니다.</p><a class="card-link" href="{{ '/health/epigastric-discomfort/' | relative_url }}">관련 정보 →</a></article>
-      <article class="card"><span class="num">03</span><h3>수면·자율신경</h3><p>잠들기 어려움, 자주 깨는 수면, 스트레스와 함께 반복되는 여러 신체 불편을 상담합니다.</p><a class="card-link" href="{{ '/health/sleep-and-autonomic-balance/' | relative_url }}">관련 정보 →</a></article>
-      <article class="card"><span class="num">04</span><h3>두통·어지럼</h3><p>두통이나 어지럼이 반복될 때 발생 양상과 동반 증상을 확인하고 필요한 진료 방향을 안내합니다.</p><a class="card-link" href="{{ '/health/headache-dizziness/' | relative_url }}">관련 정보 →</a></article>
-      <article class="card"><span class="num">05</span><h3>여성 건강</h3><p>갱년기 전후의 변화, 생리와 컨디션 변화 등 여성의 생애주기와 관련된 불편을 상담합니다.</p><a class="card-link" href="{{ '/health/menopause-care/' | relative_url }}">관련 정보 →</a></article>
-      <article class="card"><span class="num">06</span><h3>체질·냉증</h3><p>손발이 차거나 쉽게 피로한 느낌 등 반복되는 생활 불편을 생활습관과 함께 살펴봅니다.</p><a class="card-link" href="{{ '/health/cold-hands-feet/' | relative_url }}">관련 정보 →</a></article>
+
+    <div class="cards clinic-cards">
+      <article class="card">
+        <span class="num">01</span>
+        <h3>통증 클리닉</h3>
+        <p>목·어깨·허리·무릎 등 일상에서 반복되는 근골격계 통증과 불편을 상담합니다.</p>
+        <a class="card-link" href="{{ '/health/pharmacopuncture-pain-care/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">02</span>
+        <h3>교통사고 클리닉</h3>
+        <p>사고 이후 나타나는 목·허리 통증, 뻐근함과 여러 불편을 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">03</span>
+        <h3>여성 클리닉</h3>
+        <p>생리 주기와 컨디션 변화, 갱년기 등 여성 건강과 관련된 불편을 상담합니다.</p>
+        <a class="card-link" href="{{ '/health/menopause-care/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">04</span>
+        <h3>산후 클리닉</h3>
+        <p>출산 후 회복 과정에서 나타나는 피로감과 컨디션 변화를 함께 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">05</span>
+        <h3>소화기 클리닉</h3>
+        <p>더부룩함, 명치 답답함, 복부 불편 등 반복되는 소화기 증상을 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/health/epigastric-discomfort/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">06</span>
+        <h3>비염·호흡기 클리닉</h3>
+        <p>비염, 코막힘 등 반복되는 코·호흡기 불편을 증상 양상과 함께 확인합니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">07</span>
+        <h3>소아 클리닉</h3>
+        <p>성장기 아이의 식욕, 체력, 반복되는 생활 불편 등을 전반적으로 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">08</span>
+        <h3>체질·보약 클리닉</h3>
+        <p>평소 체질적 특성과 피로, 냉증 등 반복되는 불편을 생활습관과 함께 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/health/cold-hands-feet/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">09</span>
+        <h3>약침 클리닉</h3>
+        <p>증상과 상태를 확인한 뒤 필요한 경우 약침을 포함한 한의학적 진료를 안내합니다.</p>
+        <a class="card-link" href="{{ '/health/pharmacopuncture-pain-care/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card">
+        <span class="num">10</span>
+        <h3>공진단·경옥고 클리닉</h3>
+        <p>피로와 체력 저하 등 현재 상태를 확인하고 한약 상담을 진행합니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
+
+      <article class="card featured-clinic">
+        <span class="num">11</span>
+        <h3>다이어트 클리닉</h3>
+        <p>체질과 생활습관, 식사 패턴을 함께 살펴 개인별 한방 체중관리 방향을 상담합니다.</p>
+        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+      </article>
     </div>
   </div>
 </section>
@@ -77,7 +183,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
   <div class="container">
     <div class="section-head">
       <div><span class="eyebrow">HEALTH LIBRARY</span><h2>건강정보를<br>계속 쌓습니다.</h2></div>
-      <p>환자분들이 자주 궁금해하시는 내용을 주제별로 나누어 쉽고 정확하게 정리합니다.</p>
+      <p>검색엔진과 AI가 주제를 명확히 이해할 수 있도록 한 페이지에 한 주제씩, 질문에 답하는 방식으로 정리합니다.</p>
     </div>
     <div class="post-grid">
       {% for post in site.posts limit:6 %}
