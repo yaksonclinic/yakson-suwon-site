@@ -178,6 +178,7 @@
    <article class="skin-card">
     <h3>습진·민감성 피부</h3>
 <p>붉어짐, 건조함, 가려움이 반복되는 피부 상태를 현재 사용 중인 제품과 생활환경을 함께 확인하며 살펴봅니다.</p>
+</article>
 
   <article class="skin-card">
     <h3>건조함·각질</h3>
