@@ -125,11 +125,11 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
       </article>
 
       <article class="card">
-        <span class="num">08</span>
-        <h3>체질·보약 클리닉</h3>
-        <p>평소 체질적 특성과 피로, 냉증 등 반복되는 불편을 생활습관과 함께 살펴봅니다.</p>
-        <a class="card-link" href="{{ '/health/cold-hands-feet/' | relative_url }}">자세히 보기 →</a>
-      </article>
+  <span class="num">08</span>
+  <h3>보약·체력회복 클리닉</h3>
+  <p>쉽게 지치는 피로감과 회복 저하, 손발이나 신체 일부의 시림·열감 등을 생활상태와 함께 살펴봅니다.</p>
+  <a class="card-link" href="{{ '/clinic/tonic/' | relative_url }}">자세히 보기 →</a>
+</article>
 
       <article class="card">
   <span class="num">09</span>
