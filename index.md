@@ -113,8 +113,8 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
       <article class="card">
         <span class="num">06</span>
         <h3>비염·호흡기 클리닉</h3>
-        <p>비염, 코막힘 등 반복되는 코·호흡기 불편을 증상 양상과 함께 확인합니다.</p>
-        <a class="card-link" href="{{ '/treatment/' | relative_url }}">자세히 보기 →</a>
+        <p>만성기침, 감기 후 잔기침, 후비루·비염처럼 오래 반복되는 호흡기 불편을 살펴봅니다.</p>
+        <a class="card-link" href="{{ '/clinic/rhinitis-respiratory/' | relative_url }}">자세히 보기 →</a>
       </article>
 
       <article class="card">
