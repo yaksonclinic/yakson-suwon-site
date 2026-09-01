@@ -40,7 +40,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     <div>
       <span class="eyebrow">SUWON · UMAN-DONG</span>
       <h1>몸의 불편을<br><em>차분히 살피는</em><br>수원 약손한의원</h1>
-      <p class="lead">2017년부터 수원 우만동에서 진료를 이어오고 있습니다. 진료 정보는 명확하게, 실제 진료실에서 자주 설명하는 건강정보는 한 주제씩 차곡차곡 기록합니다.</p>
+      <p class="lead">수원 우만동에서 진료를 이어오고 있습니다. 진료 정보는 명확하게, 실제 진료실에서 자주 설명하는 건강정보는 한 주제씩 차곡차곡 기록합니다.</p>
       <div class="hero-actions">
         <a class="button" href="{{ site.data.clinic.phone_uri }}">031-247-7522 전화 문의</a>
         <a class="button secondary" href="{{ '/treatment/' | relative_url }}">진료 안내 보기</a>
@@ -48,7 +48,7 @@ description: "수원 팔달구 우만동 약손한의원의 진료시간, 위치
     </div>
     <div class="hero-card" aria-label="약손한의원 핵심 안내">
       <span class="seal">藥手</span>
-      <p>2017년부터 · 수원 팔달구 우만동</p>
+      <p>수원 팔달구 우만동</p>
       <strong>통증부터 일상의 불편까지<br>증상과 상태를 살펴 진료합니다.</strong>
       <p>침 · 약침 · 부항 · 한약 등 한의학적 진료</p>
     </div>
