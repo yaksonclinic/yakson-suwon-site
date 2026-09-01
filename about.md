@@ -39,7 +39,7 @@
     line-height:1.25;
   }
   .about-heading p{
-    line-height:1.8;
+    line-height:1.85;
   }
   .philosophy-grid{
     display:grid;
@@ -72,6 +72,47 @@
   .quote-box p{
     margin:0;
     line-height:1.85;
+  }
+  .pulse-visual-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:20px;
+    margin:34px 0;
+  }
+  .pulse-visual{
+    margin:0;
+    padding:14px;
+    background:#fff;
+    border:1px solid rgba(0,0,0,.09);
+    border-radius:20px;
+  }
+  .pulse-visual img{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius:14px;
+  }
+  .pulse-visual figcaption{
+    padding:12px 4px 2px;
+    color:#68736e;
+    font-size:14px;
+    line-height:1.6;
+  }
+  .pulse-note{
+    margin-top:28px;
+    padding:26px;
+    border-left:4px solid #315c4d;
+    background:#fff;
+    border-radius:0 16px 16px 0;
+  }
+  .pulse-note strong{
+    display:block;
+    margin-bottom:8px;
+    font-size:1.08rem;
+  }
+  .pulse-note p{
+    margin:0;
+    line-height:1.8;
   }
   .career-list{
     display:grid;
@@ -118,6 +159,7 @@
   @media (max-width:900px){
     .about-hero-grid{grid-template-columns:1fr;}
     .philosophy-grid{grid-template-columns:1fr;}
+    .pulse-visual-grid{grid-template-columns:1fr;}
     .about-cta{flex-direction:column;align-items:flex-start;}
   }
 </style>
@@ -132,15 +174,17 @@
   <div>
     <span class="eyebrow">DIRECTOR & PHILOSOPHY</span>
     <h1>질환만 보지 않고,<br>사람을 함께 봅니다.</h1>
+
     <p>
       안녕하세요. 수원 약손한의원 대표원장 강민정입니다.
       2017년 개원 이후 한 자리에서 지역 주민의 건강을 함께 살피는
       <strong>동네주치의</strong>를 지향하며 진료해왔습니다.
     </p>
+
     <p>
-      소아 시절 보약을 상담했던 아이가 자라 다시 찾아오고,
-      한 가족의 부모님과 자녀가 함께 내원하는 모습을 보며
-      한 번의 치료보다 오랜 시간 건강을 함께 살피는 진료의 의미를 중요하게 생각하게 되었습니다.
+      저는 환자분의 이야기를 충분히 듣고,
+      현재의 증상뿐 아니라 식사와 수면, 생활습관과 스트레스를 함께 살피며
+      <strong>진료 과정에서 맥진을 중요하게 생각합니다.</strong>
     </p>
   </div>
 </div>
@@ -167,7 +211,7 @@
 
   <article class="philosophy-card">
     <h3>개인의 상태를 함께 봅니다.</h3>
-    <p>같은 병명이라도 불편의 양상은 다를 수 있어 평소 몸의 반응과 체질적 경향을 함께 참고합니다.</p>
+    <p>같은 병명이라도 불편의 양상은 다를 수 있어 평소 몸의 반응과 생활 상태를 함께 참고합니다.</p>
   </article>
 
   <article class="philosophy-card">
@@ -181,6 +225,73 @@
 
 <section class="about-section soft">
   <div class="container">
+    <div class="about-heading">
+      <span class="eyebrow">PULSE DIAGNOSIS</span>
+      <h2>문진을 충분히 하고,<br>맥을 세심하게 살펴봅니다.</h2>
+
+  <p>
+    두통, 어지럼증, 만성통증, 소화불량, 불면처럼
+    한 가지 증상만으로 설명하기 어려운 여러 불편을 함께 호소하는 분들이 있습니다.
+    검사에서 큰 이상이 확인되지 않았더라도 몸의 불편이 반복된다고 이야기하는 경우도 있습니다.
+  </p>
+
+  <p>
+    저는 이런 경우 현재 증상만 확인하기보다
+    식사와 수면, 소화, 스트레스, 피로도와 생활 상태를 충분히 듣고
+    <strong>맥진을 중요한 진찰 과정의 하나로 활용합니다.</strong>
+  </p>
+</div>
+
+<div class="pulse-visual-grid">
+  <figure class="pulse-visual">
+    <img
+      src="{{ '/assets/img/pulse/pulse-location.jpg' | relative_url }}"
+      alt="촌 관 척 위치를 설명하는 맥진 안내 이미지">
+    <figcaption>손목의 촌(寸)·관(關)·척(尺)을 나누어 맥의 특징을 살펴봅니다.</figcaption>
+  </figure>
+
+  <figure class="pulse-visual">
+    <img
+      src="{{ '/assets/img/pulse/pulse-pattern.jpg' | relative_url }}"
+      alt="맥의 깊이와 속도 힘 긴장도를 설명하는 맥진 안내 이미지">
+    <figcaption>맥의 빠르기뿐 아니라 깊이, 힘, 긴장도 등 여러 특징을 함께 관찰합니다.</figcaption>
+  </figure>
+</div>
+
+<div class="about-heading">
+  <p>
+    한의학의 맥진에서는 손목의 촌(寸)·관(關)·척(尺)을 나누어 살피고,
+    맥의 깊이와 빠르기, 힘과 긴장도 등 여러 특징을 함께 관찰합니다.
+    이러한 맥의 특징을 다른 진찰 내용과 종합하여
+    현재 몸 상태를 이해하는 데 참고합니다.
+  </p>
+
+  <p>
+    맥을 짚는 것에서 끝나지 않고
+    <strong>왜 이런 맥의 특징이 관찰되는지 환자분이 이해할 수 있도록 설명하는 것</strong>도
+    중요하게 생각합니다.
+  </p>
+
+  <p>
+    필요할 때에는 이전 진료 때의 맥과 현재의 맥을 비교해
+    몸 상태의 변화를 살펴보기도 합니다.
+  </p>
+</div>
+
+<div class="pulse-note">
+  <strong>맥진만으로 모든 상태를 판단하지 않습니다.</strong>
+  <p>
+    환자분이 말씀해주시는 증상과 생활 변화, 다른 진찰 내용,
+    필요한 경우 기존 검사 결과와 복용약 등을 함께 확인하여 종합적으로 살펴봅니다.
+    새로운 증상이 심하거나 검사가 필요한 상황에서는 해당 의료기관의 평가를 우선 안내합니다.
+  </p>
+</div>
+
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="container">
     <div class="quote-box">
       <h3>“치료는 짧고, 생활은 길다.”</h3>
       <p>
@@ -193,7 +304,7 @@
   </div>
 </section>
 
-<section class="about-section">
+<section class="about-section soft">
   <div class="container">
     <div class="about-heading">
       <span class="eyebrow">STUDY & INTEREST</span>
@@ -228,7 +339,7 @@
   </div>
 </section>
 
-<section class="about-section soft">
+<section class="about-section">
   <div class="container">
     <div class="about-heading">
       <span class="eyebrow">YAKSON</span>
