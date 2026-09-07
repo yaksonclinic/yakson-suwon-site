@@ -29,21 +29,25 @@
       <h2>이런 경우 한약 상담을 고려할 수 있습니다.</h2>
       <p>한약이 모든 증상에 필요한 것은 아닙니다. 현재 불편과 회복 상태를 확인한 뒤 한약이 필요한 경우에 처방 방향을 상담합니다.</p>
     </div>
-    <div class="herbal-grid">
-      <article class="herbal-card"><span class="num">01</span><h3>쉽게 지치고 회복이 더딜 때</h3><p>충분히 쉬어도 피로가 오래가거나, 일상생활 후 체력 회복이 더디다고 느끼는 경우입니다.</p></article>
-      <article class="herbal-card"><span class="num">02</span><h3>소화와 식욕이 예전 같지 않을 때</h3><p>더부룩함, 식욕 저하, 잦은 소화불편처럼 생활에 영향을 주는 소화기 증상을 함께 살펴봅니다.</p></article>
-      <article class="herbal-card"><span class="num">03</span><h3>수면과 스트레스로 컨디션이 떨어질 때</h3><p>불면, 긴장, 두근거림과 함께 피로와 집중력 저하가 반복되는지 확인합니다.</p></article>
-      <article class="herbal-card"><span class="num">04</span><h3>출산·과로 후 회복이 필요할 때</h3><p>출산이나 과로 이후 체력 소모가 크고 일상 회복이 더디게 느껴지는 경우 상담할 수 있습니다.</p></article>
-      <article class="herbal-card"><span class="num">05</span><h3>성장기 아이의 체력 관리가 필요할 때</h3><p>성장기 아이의 식사, 수면, 활동량, 체력과 성장 속도를 함께 확인한 뒤 필요한 부분을 상담합니다.</p></article>
-      <article class="herbal-card"><span class="num">06</span><h3>몸의 시림·열감 등 컨디션 변화가 반복될 때</h3><p>손발이나 신체 일부의 시림·열감 등 반복되는 변화가 있을 때 다른 증상과 생활 상태를 함께 살펴봅니다.</p></article>
-    </div>
+
+<div class="herbal-grid">
+  <article class="herbal-card"><span class="num">01</span><h3>쉽게 지치고 회복이 더딜 때</h3><p>충분히 쉬어도 피로가 오래가거나, 일상생활 후 체력 회복이 더디다고 느끼는 경우입니다.</p></article>
+  <article class="herbal-card"><span class="num">02</span><h3>소화와 식욕이 예전 같지 않을 때</h3><p>더부룩함, 식욕 저하, 잦은 소화불편처럼 생활에 영향을 주는 소화기 증상을 함께 살펴봅니다.</p></article>
+  <article class="herbal-card"><span class="num">03</span><h3>수면과 스트레스로 컨디션이 떨어질 때</h3><p>불면, 긴장, 두근거림과 함께 피로와 집중력 저하가 반복되는지 확인합니다.</p></article>
+  <article class="herbal-card"><span class="num">04</span><h3>출산·과로 후 회복이 필요할 때</h3><p>출산이나 과로 이후 체력 소모가 크고 일상 회복이 더디게 느껴지는 경우 상담할 수 있습니다.</p></article>
+  <article class="herbal-card"><span class="num">05</span><h3>성장기 아이의 체력 관리가 필요할 때</h3><p>성장기 아이의 식사, 수면, 활동량, 체력과 성장 속도를 함께 확인한 뒤 필요한 부분을 상담합니다.</p></article>
+  <article class="herbal-card"><span class="num">06</span><h3>몸의 시림·열감 등 컨디션 변화가 반복될 때</h3><p>손발이나 신체 일부의 시림·열감 등 반복되는 변화가 있을 때 다른 증상과 생활 상태를 함께 살펴봅니다.</p></article>
+</div>
+
   </div>
 </section>
 
 <section class="herbal-section soft">
   <div class="container">
     <div class="herbal-photo">
-      <div><img src="{{ '/assets/img/herbal-medicine.jpg' | relative_url }}" alt="수원 약손한의원 한약과 약재"></div>
+      <div>
+        <img src="{{ '/assets/img/herbal-medicine.jpg' | relative_url }}" alt="수원 약손한의원 한약과 약재">
+      </div>
       <div class="herbal-photo-copy">
         <span class="eyebrow">CONSULTATION</span>
         <h2>한약 이름보다 먼저<br>현재 몸 상태를 확인합니다.</h2>
@@ -61,29 +65,39 @@
       <h2>문진과 맥진을 함께 참고합니다.</h2>
       <p>약손한의원에서는 맥진을 중요한 진찰 과정의 하나로 생각합니다. 맥의 깊이와 빠르기, 힘과 긴장도 등 여러 특징을 살피고 환자분이 말씀해주시는 증상과 생활 상태를 함께 종합합니다.</p>
     </div>
-    <div class="herbal-note">
-      <h3>맥만으로 한약을 처방하지 않습니다.</h3>
-      <p>맥진은 현재 몸 상태를 이해하는 데 참고하는 진찰 과정입니다. 문진과 다른 진찰 내용, 기존 질환과 복용약 등을 함께 확인하여 한약 처방 여부와 방향을 상담합니다.</p>
-    </div>
+
+<div class="herbal-note">
+  <h3>맥만으로 한약을 처방하지 않습니다.</h3>
+  <p>맥진은 현재 몸 상태를 이해하는 데 참고하는 진찰 과정입니다. 문진과 다른 진찰 내용, 기존 질환과 복용약 등을 함께 확인하여 한약 처방 여부와 방향을 상담합니다.</p>
+</div>
+
   </div>
 </section>
 
 <section class="herbal-section soft">
   <div class="container">
-    <div class="herbal-heading"><span class="eyebrow">FAQ</span><h2>한약 상담 전 자주 묻는 질문</h2></div>
-    <div class="faq-list">
-      <article class="faq-item"><h3>다른 약을 복용하고 있어도 한약 상담을 받을 수 있나요?</h3><p>복용 중인 처방약, 건강기능식품 등이 있다면 진료 시 알려주세요. 기존 질환과 복용약을 확인한 뒤 한약 복용 가능 여부와 주의할 점을 상담합니다.</p></article>
-      <article class="faq-item"><h3>피곤하면 누구나 보약을 먹어야 하나요?</h3><p>아닙니다. 피로의 원인과 지속 기간, 수면과 식사 상태 등을 먼저 확인하는 것이 중요합니다. 필요한 경우 검사나 다른 의료기관 진료가 우선일 수 있습니다.</p></article>
-      <article class="faq-item"><h3>한약은 모두 같은 처방인가요?</h3><p>같은 증상을 말씀하시더라도 생활 상태와 기존 질환, 진찰 소견이 다를 수 있습니다. 구체적인 처방은 진료 후 개인 상태를 확인하여 결정합니다.</p></article>
-      <article class="faq-item"><h3>한약 복용 기간은 얼마나 되나요?</h3><p>복용 목적과 현재 상태에 따라 달라질 수 있습니다. 진료 후 예상 복용 기간과 경과 확인 시점을 안내드립니다.</p></article>
+    <div class="herbal-heading">
+      <span class="eyebrow">FAQ</span>
+      <h2>한약 상담 전 자주 묻는 질문</h2>
     </div>
+
+<div class="faq-list">
+  <article class="faq-item"><h3>다른 약을 복용하고 있어도 한약 상담을 받을 수 있나요?</h3><p>복용 중인 처방약, 건강기능식품 등이 있다면 진료 시 알려주세요. 기존 질환과 복용약을 확인한 뒤 한약 복용 가능 여부와 주의할 점을 상담합니다.</p></article>
+  <article class="faq-item"><h3>피곤하면 누구나 보약을 먹어야 하나요?</h3><p>아닙니다. 피로의 원인과 지속 기간, 수면과 식사 상태 등을 먼저 확인하는 것이 중요합니다. 필요한 경우 검사나 다른 의료기관 진료가 우선일 수 있습니다.</p></article>
+  <article class="faq-item"><h3>한약은 모두 같은 처방인가요?</h3><p>같은 증상을 말씀하시더라도 생활 상태와 기존 질환, 진찰 소견이 다를 수 있습니다. 구체적인 처방은 진료 후 개인 상태를 확인하여 결정합니다.</p></article>
+  <article class="faq-item"><h3>한약 복용 기간은 얼마나 되나요?</h3><p>복용 목적과 현재 상태에 따라 달라질 수 있습니다. 진료 후 예상 복용 기간과 경과 확인 시점을 안내드립니다.</p></article>
+</div>
+
   </div>
 </section>
 
 <section class="herbal-section">
   <div class="container">
     <div class="herbal-cta">
-      <div><h2>수원에서 한약 상담을 찾고 계신가요?</h2><p>현재 불편과 복용 중인 약, 기존 검사 결과가 있다면 진료 시 함께 알려주세요.</p></div>
+      <div>
+        <h2>수원에서 한약 상담을 찾고 계신가요?</h2>
+        <p>현재 불편과 복용 중인 약, 기존 검사 결과가 있다면 진료 시 함께 알려주세요.</p>
+      </div>
       <div class="actions">
         <a class="button" href="{{ site.data.clinic.phone_uri }}">전화 문의</a>
         <a class="button secondary" href="{{ '/clinic/tonic/' | relative_url }}">보약·체력회복 보기</a>
