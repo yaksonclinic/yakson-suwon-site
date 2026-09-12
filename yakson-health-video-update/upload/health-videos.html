@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /health-videos/
+title: "한의사가 알려주는 건강관리"
+description: "수원 약손한의원에서 전하는 건강관리 이야기. 증상과 생활 속 건강정보를 짧은 영상과 글로 함께 확인하세요."
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">HEALTH VIDEOS</span>
+    <h1>한의사가 알려주는 건강관리</h1>
+    <p>궁금했던 건강 이야기를<br>짧은 영상과 글로 함께 살펴보세요.</p>
+  </div>
+</section>
+<section class="section video-library" aria-label="건강관리 영상 목록">
+  <div class="container">
+    {% assign health_videos = site.health_videos | sort: 'date' | reverse %}
+    <div class="health-video-grid">
+      {% for video in health_videos %}
+      <a class="health-video-card" href="{{ video.url | relative_url }}">
+        <span class="video-card-label"><span class="video-play-icon" aria-hidden="true">▶</span> 건강관리 영상 · {{ video.category | escape }}</span>
+        <h2>{{ video.title | escape }}</h2>
+        <p>{{ video.description | escape }}</p>
+        <span class="video-card-bottom"><time datetime="{{ video.date | date_to_xmlschema }}">{{ video.date | date: '%Y.%m.%d' }}</time><span>영상과 글 보기 <span aria-hidden="true">→</span></span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
