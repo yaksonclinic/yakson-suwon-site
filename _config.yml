@@ -10,6 +10,10 @@ baseurl: "/yakson-suwon-site"
 
 permalink: /health/:title/
 markdown: kramdown
+collections:
+  health_videos:
+    output: true
+    permalink: /health-videos/:name/
 kramdown:
   input: GFM
 
@@ -42,3 +46,10 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: health_videos
+    values:
+      layout: health-video
+      seo:
+        type: Article

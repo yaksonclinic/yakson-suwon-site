@@ -27,6 +27,7 @@ permalink: /llms.txt
 - 한의원 소개: {{ '/clinic/' | absolute_url }}
 - 진료 안내: {{ '/treatment/' | absolute_url }}
 - 건강정보: {{ '/articles/' | absolute_url }}
+- 한의사가 알려주는 건강관리: {{ '/health-videos/' | absolute_url }}
 - FAQ: {{ '/faq/' | absolute_url }}
 - 오시는 길: {{ '/location/' | absolute_url }}
 - 한의원 핵심 사실: {{ '/clinic-facts/' | absolute_url }}
@@ -41,6 +42,11 @@ permalink: /llms.txt
 
 ## 건강정보 문서
 {% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}) — {{ post.description }}
+{% endfor %}
+
+## 건강관리 영상
+{% assign health_videos = site.health_videos | sort: 'date' | reverse %}
+{% for video in health_videos %}- [{{ video.title }}]({{ video.url | absolute_url }}) — {{ video.description }}
 {% endfor %}
 
 ## 콘텐츠 원칙

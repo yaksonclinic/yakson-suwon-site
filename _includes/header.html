@@ -10,6 +10,7 @@
       <a href="{{ '/treatment/' | relative_url }}">진료 안내</a>
       <a href="{{ '/herbal-medicine/' | relative_url }}">한약</a>
       <a href="{{ '/articles/' | relative_url }}">건강칼럼</a>
+      <a href="{{ '/health-videos/' | relative_url }}"{% if page.url contains '/health-videos/' %} aria-current="{% if page.url == '/health-videos/' %}page{% else %}location{% endif %}"{% endif %}>한의사가 알려주는 건강관리</a>
       <a href="{{ '/faq/' | relative_url }}">자주 묻는 질문</a>
       <a href="{{ '/location/' | relative_url }}">오시는 길</a>
       <a class="nav-call" href="{{ site.data.clinic.phone_uri }}">전화 문의</a>
